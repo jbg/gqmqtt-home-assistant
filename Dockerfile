@@ -9,7 +9,7 @@ RUN apk update --no-cache \
 	&& cp gqmqtt /usr/bin/ \
 	&& cd / \
 	&& rm -rf /usr/src/gqmqtt \
-	&& apk rm git go
+	&& apk del git go
 
 COPY run.sh /
 RUN chmod a+x /run.sh
