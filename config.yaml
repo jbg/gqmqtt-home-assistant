@@ -19,7 +19,7 @@ options:
   mqtt_password: ""
 schema:
   port: str
-  baudrate: int
+  baud_rate: int
   model: str
   mqtt_topic: str
   mqtt_uri: str
