@@ -1,6 +1,6 @@
 name: "gqmqtt"
 description: "USB serial to MQTT bridge for GQ GMC-500+ Geiger Counter"
-version: "1.0.0"
+version: "1.0.1"
 slug: "gqmqtt"
 arch:
   - aarch64
