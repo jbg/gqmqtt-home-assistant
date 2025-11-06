@@ -1,6 +1,6 @@
 name: "gqmqtt"
 description: "USB serial to MQTT bridge for GQ GMC-500+ Geiger Counter"
-version: "1.0.1"
+version: "1.0.2"
 slug: "gqmqtt"
 arch:
   - aarch64
@@ -26,10 +26,4 @@ schema:
   mqtt_interval: int
   mqtt_username: str
   mqtt_password: str
-init: false
-startup: once
 uart: true
-host_network: true
-video: false
-homeassistant_api: false
-hassio_api: false
